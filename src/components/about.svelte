@@ -3,7 +3,7 @@
 	import aboutImg from '../assets/home_about.jpg';
 	import GithubIcon from '../assets/github_icon.svelte';
 	import BetteruptimeIcon from '../assets/betteruptime_icon.svelte';
-	import ForumIcon from '../assets/forum_icon.svelte';
+	import FlarumLogo from '../assets/flarum_logo.svelte';
 </script>
 
 <h2 class="text-2xl font-bold xl:w-2/6 w-full text-center pt-4 -mb-4">About us</h2>
@@ -39,7 +39,7 @@
 					<BetteruptimeIcon />
 				</a>
 				<a href="https://forum.arcin.solutions" target="_blank" class="btn btn-ghost">
-					<ForumIcon />
+					<FlarumLogo />
 				</a>
 			</div>
 		</div>
