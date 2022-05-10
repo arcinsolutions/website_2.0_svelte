@@ -1,5 +1,7 @@
+<script>
+import Comingsoon from "../../components/comingsoon.svelte";
+
+</script>
 <template>
-	<div class="h-screen">
-		<div class="hero" />
-	</div>
+	<Comingsoon />
 </template>

@@ -37,7 +37,7 @@
 				> and complete Open Source like all of our Projects.
 			</p>
 			<div class="card-actions justify-end">
-				<a href="projects/golden" class="btn btn-outline">see More</a>
+				<a href="projects/goldv" class="btn btn-outline">see More</a>
 			</div>
 		</div>
 		<figure class="w-5/12 max-w-[41.666667%]">
