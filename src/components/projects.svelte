@@ -11,6 +11,7 @@
 				src={goldenLogo}
 				alt="Album"
 				class="rounded-full lg:rounded-none mt-4 ml-8 lg:m-0 max-w-[41.666667%]"
+				loading="lazy"
 			/>
 		</figure>
 		<div class="card-body">
@@ -41,7 +42,7 @@
 			</div>
 		</div>
 		<figure class="w-5/12 max-w-[41.666667%]">
-			<img src={goldvLogo} alt="Album" class="max-w-[41.666667%]" />
+			<img src={goldvLogo} alt="Album" class="max-w-[41.666667%]" loading="lazy" />
 		</figure>
 	</div>
 </div>

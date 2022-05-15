@@ -1,8 +1,9 @@
-<script>
+<script lang="ts">
 	import About from '../components/about.svelte';
 	import bg from '../assets/bg_home.jpg';
 	import Projects from '../components/projects.svelte';
 	import ArcinLogo from '../assets/arcin_logo.svelte';
+	import ArrowDown from '../assets/arrow_down.svelte';
 </script>
 
 <div class="bg-base-300">
@@ -14,7 +15,7 @@
 		/>
 		<div class="hero-content text-center relative min-h-screen w-screen overflow-hidden">
 			<svg
-				id="visual"
+				id="homeBlob"
 				viewBox="0 0 900 600"
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -33,6 +34,9 @@
 				</div>
 				<p class="pb-6">Free and Open Source projects for everyone.</p>
 				<a href="#about" class="btn btn-primary">About us </a>
+			</div>
+			<div class="z-10 absolute lg:block hidden h-auto w-auto bottom-10">
+				<ArrowDown />
 			</div>
 		</div>
 	</section>

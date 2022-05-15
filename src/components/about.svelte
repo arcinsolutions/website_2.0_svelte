@@ -9,7 +9,12 @@
 <h2 class="text-2xl font-bold xl:w-2/6 w-full text-center pt-4 -mb-4">About us</h2>
 <div class="w-full flex justify-center p-10">
 	<div class="card w-4/5 bg-base-200/50 shadow-2xl">
-		<img src={aboutImg} alt="our Team" class="image-full h-72 object-cover object-center" />
+		<img
+			src={aboutImg}
+			alt="our Team"
+			class="image-full h-72 object-cover object-center"
+			loading="lazy"
+		/>
 		<div class="card-body">
 			<h2 class="card-title font-normal -mt-3">why we do dis?</h2>
 			<p>

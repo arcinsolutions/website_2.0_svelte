@@ -1,15 +1,18 @@
-<script>
+<script lang="ts">
+	import PageTransition from '../components/PageTransition.svelte';
+
 	import Footer from '../components/footer.svelte';
 	import Nav from '../components/nav.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <div class="drawer">
 	<input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content flex flex-col">
 		<Nav />
-
-		<slot />
-
+		<PageTransition refresh={$page.url}>
+			<slot />
+		</PageTransition>
 		<Footer />
 	</div>
 	<!-- Sidebar content -->

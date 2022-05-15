@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import ArcinLogoSmall from '../assets/arcin_logo_small.svelte';
 </script>
 
