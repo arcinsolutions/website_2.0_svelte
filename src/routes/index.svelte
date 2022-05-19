@@ -1,15 +1,15 @@
 <script lang="ts">
 	import About from '../components/about.svelte';
-	import bg from '../assets/bg_home.jpg';
 	import Projects from '../components/projects.svelte';
 	import ArcinLogo from '../assets/arcin_logo.svelte';
 	import ArrowDown from '../assets/arrow_down.svelte';
+import Divider from '../components/divider.svelte';
 </script>
 
 <div class="bg-base-300">
 	<section id="home" class="hero min-h-screen">
 		<img
-			src={bg}
+			src="https://cds.arcin.solutions/static/images/bg_home.jpg"
 			class="blur-sm brightness-50 object-cover h-screen min-w-full object-left"
 			alt="Arcin Office"
 		/>
@@ -21,6 +21,7 @@
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				version="1.1"
 				class="-z-10 absolute fill-base-300 object-center object-fill min-h-screen"
+				style="--delay: 3s; --scale: 0.9; position: absolute; transform: scale(0.9) rotate(0deg); undefined"
 			>
 				<g transform="translate(425.83185487545876 287.2668386674961)">
 					<path
@@ -43,9 +44,7 @@
 	<section id="about">
 		<About />
 	</section>
-	<div class="w-full flex justify-center">
-		<div class="w-9/12 divider" />
-	</div>
+	<Divider />
 	<section id="projects">
 		<Projects />
 	</section>
