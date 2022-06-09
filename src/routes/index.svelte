@@ -3,7 +3,7 @@
 	import Projects from '../components/projects.svelte';
 	import ArcinLogo from '../assets/arcin_logo.svelte';
 	import ArrowDown from '../assets/arrow_down.svelte';
-import Divider from '../components/divider.svelte';
+	import Divider from '../components/divider.svelte';
 </script>
 
 <div class="bg-base-300">

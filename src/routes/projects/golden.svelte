@@ -1,8 +1,8 @@
 <script>
 	import Divider from './../../components/divider.svelte';
-import ArrowDown from './../../assets/arrow_down.svelte';
-import GithubIcon from './../../assets/github_icon.svelte';
-import DiscordIcon from './../../assets/discord_icon.svelte';
+	import ArrowDown from './../../assets/arrow_down.svelte';
+	import GithubIcon from './../../assets/github_icon.svelte';
+	import DiscordIcon from './../../assets/discord_icon.svelte';
 </script>
 
 <div class="bg-base-300">
@@ -22,7 +22,11 @@ import DiscordIcon from './../../assets/discord_icon.svelte';
 					</p>
 					<p class="pb-6 underline">a new Version is currently in Development.</p>
 					<div>
-						<a href="https://github.com/arcinsolutions/Golden" target="blank" class="btn btn-primary mr-2">
+						<a
+							href="https://github.com/arcinsolutions/Golden"
+							target="blank"
+							class="btn btn-primary mr-2"
+						>
 							<GithubIcon />
 						</a>
 						<a href="https://discord.gg/PX28nyVgdP" target="blank" class="btn btn-primary">

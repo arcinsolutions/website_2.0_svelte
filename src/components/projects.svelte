@@ -37,7 +37,12 @@
 			</div>
 		</div>
 		<figure class="w-5/12 max-w-[41.666667%]">
-			<img src="https://cds.arcin.solutions/static/images/goldv_logo.png" alt="Album" class="max-w-[41.666667%]" loading="lazy" />
+			<img
+				src="https://cds.arcin.solutions/static/images/goldv_logo.png"
+				alt="Album"
+				class="max-w-[41.666667%]"
+				loading="lazy"
+			/>
 		</figure>
 	</div>
 </div>
