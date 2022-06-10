@@ -1,8 +1,8 @@
 <script>
-	import Divider from './../../components/divider.svelte';
-	import ArrowDown from './../../assets/arrow_down.svelte';
-	import GithubIcon from './../../assets/github_icon.svelte';
-	import DiscordIcon from './../../assets/discord_icon.svelte';
+	import Divider from '/src/components/divider.svelte';
+	import ArrowDown from '/src/assets/arrow_down.svelte';
+	import GithubIcon from '/src/assets/github_icon.svelte';
+	import DiscordIcon from '/src/assets/discord_icon.svelte';
 </script>
 
 <div class="bg-base-300">

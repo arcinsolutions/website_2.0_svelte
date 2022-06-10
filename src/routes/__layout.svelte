@@ -1,9 +1,9 @@
 <script lang="ts">
 
-	import Footer from './../components/footer.svelte';
-	import Nav from './../components/nav.svelte';
+	import Footer from '/src/components/footer.svelte';
+	import Nav from '/src/components/nav.svelte';
 	import { page } from '$app/stores';
-import PageTransition from './../components/PageTransition.svelte';
+import PageTransition from '/src/components/pageTransition.svelte';
 </script>
 
 <div class="drawer">

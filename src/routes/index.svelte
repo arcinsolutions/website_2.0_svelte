@@ -1,9 +1,9 @@
 <script lang="ts">
-	import About from '../components/about.svelte';
-	import Projects from '../components/projects.svelte';
-	import ArcinLogo from '../assets/arcin_logo.svelte';
-	import ArrowDown from '../assets/arrow_down.svelte';
-	import Divider from '../components/divider.svelte';
+	import About from '/src/components/about.svelte';
+	import Projects from '/src/components/projects.svelte';
+	import ArcinLogo from '/src/assets/arcin_logo.svelte';
+	import ArrowDown from '/src/assets/arrow_down.svelte';
+	import Divider from '/src/components/divider.svelte';
 </script>
 
 <div class="bg-base-300">

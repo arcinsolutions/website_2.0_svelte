@@ -1,5 +1,5 @@
 <script>
-	import Comingsoon from '../../components/comingsoon.svelte';
+	import Comingsoon from '/src/components/comingsoon.svelte';
 </script>
 
 <Comingsoon />
